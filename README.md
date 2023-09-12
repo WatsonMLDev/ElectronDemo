@@ -42,6 +42,20 @@ To run the app, run the following command from the `frontend` directory:
 
 This will start the Electron app. You should see a window appear with the demo GUI.
 
+## Packaging the app
+
+This electron demo uses `electron-packager` to package the app. To package the app, run the following command from the `frontend` directory:
+
+```electron-packager . --overwrite --platform={INSERT_PLATFROM} --arch={INSERT_ARCHITECTRUE}```
+
+The `--platform` options are `win32`, `darwin`(MacOS), and `linux`. 
+The `--arch` options are `ia32`, `x64`, and `armv7l`.
+
+Most likely, you will want to choose `x64` as your architecture.
+For your platform, choose the platform you want to run it on.
+
+**NOTE:** windows users **CAN NOT** build for `darwin` or `linux`, you must be on a unix opperating system to build for `darwin` or `linux`.
+
 ## Further help
 
 If you run into any issues or have any questions, feel free to [open an issue](https://github.com/WatsonMLDev/ElectronDemo/issues)

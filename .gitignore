@@ -219,3 +219,7 @@ fabric.properties
 
 # Built Visual Studio Code Extensions
 *.vsix
+/.idea/ElectronDemo.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
