@@ -1,0 +1,26 @@
+{
+  "name": "electrondemo",
+  "version": "1.0.0",
+  "description": "A simple electron demo app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WatsonMLDev/ElectronDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WatsonMLDev/ElectronDemo/issues"
+  },
+  "homepage": "https://github.com/WatsonMLDev/ElectronDemo#readme",
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
