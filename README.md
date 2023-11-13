@@ -46,7 +46,7 @@ This will start the Electron app. You should see a window appear with the demo G
 
 This electron demo uses `electron-packager` to package the app. To package the app, run the following command from the `frontend` directory:
 
-```electron-packager . --overwrite --platform={INSERT_PLATFROM} --arch={INSERT_ARCHITECTRUE}```
+```electron-packager . --overwrite --platform={INSERT_PLATFORM} --arch={INSERT_ARCHITECTURE}```
 
 The `--platform` options are `win32`, `darwin`(MacOS), and `linux`. 
 The `--arch` options are `ia32`, `x64`, and `armv7l`.
